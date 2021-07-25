@@ -1,21 +1,20 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import coverImage from '../../assets/cover/cover.png';
 
 function About() {
   return (
-    <div class="card text-center">
-    <div class="card-header">
-      Featured
+    <section className="my-5" >
+    <h1 id="about">Who am I?</h1>
+    <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
+    <div className="my-2">
+     <p>
+         My name is Kaan Emre Nazlioz.I am from Turkey,since February 2021,I have been studying UW coding bootcamp.I have learned how to use HTML,CSS,Javascript,Node.js,MySql,MongoDB and now React.js
+     </p>
     </div>
-    <div class="card-body">
-      <h5 class="card-title">Special title treatment</h5>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-    <div class="card-footer text-muted">
-      2 days ago
-    </div>
-  </div>
+  </section>
+
+  
   );
 }
 

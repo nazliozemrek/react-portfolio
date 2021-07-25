@@ -1,0 +1,19 @@
+.social {
+    background-color: black;
+    padding: 25px 100px;
+}
+
+a{
+  margin: 0 2rem;
+}
+a.facebook{
+  color: aliceblue;
+}
+
+a.github{
+  color:aliceblue;
+}
+
+a.linkedin{
+  color: aliceblue;
+}
