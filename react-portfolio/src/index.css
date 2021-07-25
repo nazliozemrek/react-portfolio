@@ -1,8 +1,16 @@
+nav{
+ height: 100px;
+}
+#about h1{
+  text-align: center;
+}
 .social {
     background-color: black;
     padding: 25px 100px;
 }
-
+p{
+  font-size: larger;
+}
 a{
   margin: 0 2rem;
 }
