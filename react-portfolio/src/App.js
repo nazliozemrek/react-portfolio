@@ -3,6 +3,7 @@ import About from './components/About';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import ContactForm from './components/Contact';
+import Portfolio from './components/Portfolio';
 
 
 function App() {
@@ -18,12 +19,13 @@ function App() {
       {!contactSelected ? (
       <>
       <About></About>
+      <Portfolio></Portfolio>
       </>
         ) : (
           <ContactForm></ContactForm>
-    
-    
+  
     )}
+
         <Footer></Footer>
       </main>
     </div>

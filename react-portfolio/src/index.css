@@ -1,8 +1,11 @@
 nav{
  height: 100px;
 }
-#about h1{
+section h1{
   text-align: center;
+}
+section .picture{
+  margin-left: 133%; 
 }
 .social {
     background-color: black;
@@ -10,6 +13,7 @@ nav{
 }
 p{
   font-size: larger;
+  font-weight: bolder;
 }
 a{
   margin: 0 2rem;
