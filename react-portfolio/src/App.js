@@ -26,7 +26,7 @@ function App() {
   
     )}
 
-        <Footer></Footer>
+        <Footer/>
       </main>
     </div>
   );
